@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         } else {
             Toast.makeText(this, "Sensor not found!!!", Toast.LENGTH_SHORT).show()
         }
+        Toast.makeText(this, "mohammed", Toast.LENGTH_SHORT).show()
     }
 
     override fun onSensorChanged(p0: SensorEvent?) {
